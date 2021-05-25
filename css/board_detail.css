@@ -1,0 +1,102 @@
+/* 디테일 영역 */
+
+/* 상세보기 영역 */
+.title {
+    margin: 30px;
+    padding: 0;
+    font-size: 35px;
+}
+
+/* 이미지 영역 */
+.col-lg-6>img{
+    height: 100%;
+    margin-bottom: 30px;
+}
+/* 제품 내용 영역 */
+.detail-item{
+    height: 500px;
+    width: 100%;
+}
+
+.detail-content{
+    height: 350px;
+}
+
+.detail-item > .detail-content >.item-title {
+    font-size: 30px;
+}
+
+.detail-item > .detail-content > .item-price {
+    font-size: 25px;
+}
+
+.detail-item > .detail-content > .porter {
+    color:#888;
+}
+/* 버튼영역 */
+.all-price{
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.detail-btn > .all-price > .price-left {
+    float: left;
+    font-size: 18px;
+}
+.detail-btn > .all-price > .price-right {
+    float: right;
+    font-size: 30px;
+}
+.detail-btn-lr {
+    overflow: hidden;
+    text-align: center;
+    height: 50px;
+}
+.detail-btn-lr > .btn-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.detail-btn-lr > .btn-right{
+    margin: 0;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+/* 댓글 작성 영역 */
+.profile-box {
+    background-color: #f5f5f5;
+    border: 1px solid #d2d2d2;
+    padding: 15px;
+    margin-top: -50px;
+}
+
+/* 이미지 */
+.detail-img > img {
+    position: absolute;
+    margin: 0;
+}
+
+.detail-img {
+    position: relative;
+}
+/* 글 작성 영역 */
+
+.reply-content{
+  padding-left: 60px;
+}
+/* id 비밀번호 영역 */
+.info {
+    overflow: hidden;
+}
+.info > .info-right{
+    float: right;
+}
+.text {
+    width: 100%;
+    min-height: 80px;
+}
+.info > .pw,.id {
+    width: 200px;
+}

@@ -1,0 +1,75 @@
+/* 페이스북 디자인 */
+@media (max-width) {
+    .aside-facebook {display: none;}
+}
+.reply-group {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.reply-group > .left {
+    float: left;
+}
+
+.reply-group > .right {
+    float: right;
+}
+
+.section-facebook {
+    border-left: 1px solid #d2d2d2d2;
+    border-right: 1px solid #d2d2d2d2;
+}
+.section-facebook > .fileDiv {
+    display: none;
+}
+
+.profile-inner {
+    position: relative;
+    z-index: auto;
+}
+.profile-inner > .profile {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.profile-inner > .profile-name {
+    padding-left: 50px;
+}
+.profile-inner > .profile-name p{
+    margin-bottom: 4px;
+}
+.profile-inner  p {
+    margin-bottom: 0px;
+}
+.content-inner > p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.image-inner > img {
+    width: 100%;
+}
+
+.like-inner > a > span {
+    vertical-align: middle;
+}
+.like-inner > a {
+    text-decoration: none;
+    color: #333;
+    font-size: small;
+}
+.like-inner, .button-inner {
+    border-top: 1px solid #d2d2d2d2;
+    margin-top: 5px;
+}
+.button-inner{overflow: hidden;}    
+.button-inner > a {
+    color: #333;
+    text-align: center;
+    float: left;
+    width: 33.33333%;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.button-inner i {
+    margin-right: 5px;
+}
